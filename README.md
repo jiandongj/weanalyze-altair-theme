@@ -1,4 +1,4 @@
-# weanalyze-altair-theme <img align="right" src="https://raw.githubusercontent.com/weanalyze/weanalyze-altair-theme/master/assets/logo.svg" height="96" />
+# weanalyze-altair-theme <img align="right" src="https://github.com/weanalyze/orpyter/blob/main/assets/weanalyze_logo.svg" height="96" />
 
 [![PyPI](https://img.shields.io/pypi/v/weanalyze-altair-theme)](https://pypi.org/project/weanalyze-altair-theme/) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/weanalyze/weanalyze-altair-theme/master?labpath=demo.ipynb)
 
@@ -6,7 +6,7 @@ WeAnalyze's theme for [Altair](https://github.com/altair-viz/altair) charts.
 
 ## Sneak peek
 
-![Examples of charts with the weanalyze-altair-theme applied](https://raw.githubusercontent.com/weanalyze/weanalyze-altair-theme/master/assets/weanalyze_logo.svg)
+![Examples of charts with the weanalyze-altair-theme applied](https://github.com/weanalyze/orpyter/blob/main/assets/visualization.svg)
 
 ## Quickstart
 
