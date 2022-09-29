@@ -1,4 +1,4 @@
-# weanalyze-altair-theme <img align="right" src="https://github.com/weanalyze/weanalyze-altair-theme/blob/main/assets/weanalyze_logo.svg" height="96" />
+# weanalyze-altair-theme <img align="right" src="https://github.com/weanalyze/weanalyze-altair-theme/blob/main/assets/weanalyze_logo.svg" height="48" />
 
 [![PyPI](https://img.shields.io/pypi/v/weanalyze-altair-theme)](https://pypi.org/project/weanalyze-altair-theme/) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/weanalyze/weanalyze-altair-theme/master?labpath=demo.ipynb)
 
