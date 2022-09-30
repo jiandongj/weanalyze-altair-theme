@@ -1,17 +1,29 @@
-[tool.poetry]
-name = "weanalyze-altair-theme"
-version = "0.1.2"
-description = "Weanalyze's theme for Altair charts."
-authors = ["jiandong <jiandong@weanalyze.co>"]
-license = "MIT"
-readme = "README.md"
-packages = [{include = "weanalyze_altair_theme"}]
-
-[tool.poetry.dependencies]
-python = "^3.8"
-altair = "^4.2.0"
-
-
+# Support for PEP 517
+# https://setuptools.readthedocs.io/en/latest/setuptools.html#setup-cfg-only-projects
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools >= 40.9.0",
+  "wheel",
+]
+
+[tool.black]
+exclude = '''
+(
+    \.egg
+  | \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.pytest_cache
+  | \.tox
+  | \.nox
+  | \.venv
+  | _build
+  | build
+  | dist
+  | setup.py
+)
+'''
+line-length = 88
+target-version = ['py36', 'py37', 'py38', 'py39', 'py310']
