@@ -22,7 +22,5 @@ pip install weanalyze-altair-theme
 
 ```python
 import altair as alt
-from weanalyze_altair_theme.theme import weanalyze
-alt.themes.register("weanalyze", weanalyze)
 alt.themes.enable("weanalyze")
 ```
