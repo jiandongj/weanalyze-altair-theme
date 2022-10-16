@@ -25,7 +25,7 @@ ENTRY_POINTS: Dict[str, List[str]] = {
         "weanalyze = weanalyze_altair_theme.theme:weanalyze",
     ],
 }
-DEPENDENCIES: List[str] = ["altair==4.*", "typing-extensions==4.0.*"]
+DEPENDENCIES: List[str] = ["altair==4.*", "typing-extensions>=4.0.0"]
 
 
 def get_version(root: Path, rel_path: str) -> str:
